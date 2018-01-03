@@ -8,6 +8,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import {ProductComponent} from "./product/product.component";
 import { FailComponent } from './fail/fail.component';
+import {ProductDescComponent} from "./product/product-desc/product-desc.component";
+import {SellerinfoComponent} from "./product/sellerinfo/sellerinfo.component";
+import { ChatComponent } from './chat/chat.component';
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import { FailComponent } from './fail/fail.component';
     AppComponent,
     HomeComponent,
     ProductComponent,
-    FailComponent
+    FailComponent,
+    ProductDescComponent,
+    SellerinfoComponent,
+    ChatComponent
   ],
   imports: [
     BrowserModule,

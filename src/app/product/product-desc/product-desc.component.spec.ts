@@ -1,9 +1,6 @@
-/* tslint:disable:no-unused-variable */
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { By } from '@angular/platform-browser';
-import { DebugElement } from '@angular/core';
 
-import { ProductDescComponent } from './product-desc.component';
+import { ProductDescComponent } from './product-desc.component.ts';
 
 describe('ProductDescComponent', () => {
   let component: ProductDescComponent;
